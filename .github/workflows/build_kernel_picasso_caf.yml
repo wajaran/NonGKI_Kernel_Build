@@ -1,4 +1,4 @@
-name: Build kernel_picasso_aosp
+name: Build kernel_picasso_caf
 on:
   workflow_call:
   workflow_dispatch:

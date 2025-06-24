@@ -9,7 +9,7 @@ env:
   PATCHES_SOURCE: "author/source" # [your_name]/[your_patch] -> gooder123/NonGKI_Patcher
   PATCHES_BRANCH: "branch" # [your_branch] -> main
   HOOK_METHOD: "syscall" # manual hook method,can choice syscall and normal.
-  HOOK_OLDER: "false" # contain backport older patch and syscall older patch.
+  HOOK_OLDER: "true" # contain backport older patch and syscall older patch.
   PROFILE_NAME: "picasso_miui_caf.env" # your profile name.
   KERNELSU_SUS_PATCH: "false" # if u need manual susfs patch to kernelsu.
   KPM_ENABLE: "true" # Only use it for SukiSU-Ultra.
